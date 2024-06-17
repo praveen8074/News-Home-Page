@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+body{
+    align-items: center;
+}
+.container{
+    width:85%;
+    margin: 5% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: hsl(36, 100%, 99%);
+    padding: 20px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:450px;
+    
+}
+.head img{
+    width: 50px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    margin-left: 300px;
+    
+}
+.nav a{
+    text-decoration: none;
+    color: hsl(233, 8%, 79%); 
+    
+}
+.nav a:hover{
+    color: hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+.middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 30px 0px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+}
+.top img{
+    width: 100%;
+    height: 400px;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 30px 0px;
+}
+.first h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    margin-left: 80px;
+}
+.sec p{
+    font-size: 15px;
+    color:  hsl(233, 8%, 79%);
+}
+button{
+    width: 160px;
+    height: 40px;
+    color: hsl(240, 100%, 5%);
+    background-color:  hsl(5, 85%, 63%);
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+button:hover{
+    cursor: pointer;
+    background-color:hsl(240, 100%, 5%) ;
+    color: hsl(36, 100%, 99%);
+}
+.right{
+    height:630px;
+    width: 30%;
+    background-color: hsl(240, 100%, 5%);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding: 15px;
+    gap: 40px;
+}
+.right h2{
+    color: hsl(35, 77%, 62%);
+    font-size: 30px;
+}
+.right h3:hover{
+    cursor: pointer;
+    color:  hsl(35, 77%, 62%);
+}
+.one,.two,.three{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+h3{
+    font-size: 20px;
+    color: hsl(36, 100%, 99%);
+}
+.right p{
+    font-size: 12px;
+    color:  hsl(233, 8%, 79%);
+}
+hr{
+    width: 100%;
+}
+.foot{
+    display: flex;
+    width: 100%;
+    height: 115px;
+    gap: 30px;
+}
+.retro,.lap,.game{
+    display: flex;
+}
+.foot img{
+    width: 80px;
+}
+.retro-info,.lap-info,.game-info{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: flex-start;
+    margin: 0px 20px;
+    padding: 10px 0px;
+    gap: 10px;
+}
+.foot h2{
+    font-size: 25px;
+    color:  hsl(5, 85%, 63%);
+}
+.foot h3{
+    font-size: 15px;
+    color: hsl(240, 100%, 5%);
+}
+.foot h3:hover{
+    cursor: pointer;
+    color: hsl(5, 85%, 63%) ;
+}
+.foot p{
+    font-size: 15px;
+    color:hsl(233, 8%, 79%) ;
+}
+.attribution{ 
+    font-size: 15px; 
+    text-align: center; 
+    color:  hsl(240, 100%, 5%);
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+.attribution a:hover{
+    color:hsl(36, 100%, 99%) ;
+    background-color: hsl(240, 100%, 5%) ;
+}
